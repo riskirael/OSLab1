@@ -4,7 +4,7 @@ public class Core {
 
     final Call[] calls;
 
-    private Stack<String> stack;
+    Stack stack = new Stack();
 
     public Core(Stack<String> st) {
         stack = st;
